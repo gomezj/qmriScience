@@ -3,7 +3,7 @@
 % hemisphere and make subplots comparing each one 
 
 
-dataDir = '/sni-storage/kalanit/biac2/kgs/projects/Longitudinal/FMRI/Localizer/results/indepAnalysis';
+dataDir = '.../Localizer/results/indepAnalysis';
 cd(dataDir)
 
 % Select which qMRI measure you want to plot T1 values (qt1) or MTV values
@@ -42,7 +42,7 @@ title({'Right pFus' ; ['t = ' num2str(st.tstat) ', p = ' num2str(p)]}); box off
 
 %% Plot T1 in face versus place rois in adults
 % A different violin example plotted in Figure 3
-dataDir = '/sni-storage/kalanit/biac2/kgs/projects/Longitudinal/FMRI/Localizer/results/indepAnalysis';
+dataDir = '.../Localizer/results/indepAnalysis';
 cd(dataDir)
 
 % Select which qMRI measure you want to plot T1 values (qt1) or MTV values

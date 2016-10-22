@@ -6,7 +6,7 @@
 
 %% Fus-faces and CoS-places
 
-dataDir = '/sni-storage/kalanit/biac2/kgs/projects/Longitudinal/FMRI/Localizer/results/indepAnalysis';
+dataDir = '.../Localizer/results/indepAnalysis';
 cd(dataDir);
 
 load right_pfus2_faceVox_allSubs.mat

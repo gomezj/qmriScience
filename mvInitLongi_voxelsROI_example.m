@@ -18,7 +18,7 @@ subs = {'JG24'};
 sessions = {'JG24_01062014'};
 ages = [24];
 
-mriDir = '/sni-storage/kalanit/biac2/kgs/projects/Longitudinal/FMRI/Localizer/data';
+mriDir = '.../Localizer/data';
 cd(mriDir);
 
 T1vals    = zeros(1,length(subs));

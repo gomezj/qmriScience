@@ -14,8 +14,8 @@
   
 
  display('Did you GROUP SCANS???');
- fmriDir = '/sni-storage/kalanit/biac2/kgs/projects/Longitudinal/FMRI/Localizer/data/';
- codeDir = '/sni-storage/kalanit/biac2/kgs/projects/Longitudinal/FMRI/Localizer/code/GLM';
+ fmriDir = '.../Localizer/data/';
+ codeDir = '.../Localizer/code/GLM';
  addpath(codeDir);
 
 %%%%%% RUN GLM for the LOCALIZER RUNS %%%%%%%%%%%%%%%%%%%%%%55
